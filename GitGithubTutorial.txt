@@ -55,4 +55,18 @@ Exploring commit history
 
 git log (to check the history of commit)
 
+To add all the files in the staging area use below command
 
+git add .
+
+Basic Git Commands
+
+git status - Current state of git repository
+git add - adding files to staging area
+git commit - Write changes to git repository
+git log - History of changes (commits)
+git checkout - Checkour commit or branch
+
+Checking out commits and branches
+
+git checkout hash value
