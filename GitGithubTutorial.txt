@@ -1,0 +1,58 @@
+GIT and GITHUB Course
+
+Git - Distribbuted Version control system (Local repository).
+Github - Repository hosting service (Multiple people can work together,collaboration)
+
+git init - create new repository
+.git is a hidden file which stores all the git versions files
+
+When initalizing the new repository a new branch is created.
+
+Change name of the branch with the following command (git branch -m main).
+
+we can check in which branch we are currently in by using following command
+- git branch
+
+Git Object Types
+1.Blob - Files
+2.Tree - Folders/Directories
+3.Commit - (Snapshots of your projects) 
+4.Annotated Tag - Actual pointers
+
+Every git object has specific Hash value (HexDecimall Format) SHA1.
+
+
+Working Directory - Folders where files are located
+Staging Area (index) - 
+Git Repository - When things get commited then can see multiple folders inside the objects
+
+
+Most Common Operations
+
+Working Directory > git add > Staging Area > git commit > Git repository.
+
+Git repository > git checkout > Working Directory
+
+git status - Can check the commits 
+git add filename
+
+What is commit
+
+when you commit changes git as the author name email.
+Every git object has hash value in it.
+
+To Check whether the global name is configured or not.
+
+git config --list 
+
+Commit Changes
+
+git commit -m "Your message"
+
+git branch 
+
+Exploring commit history
+
+git log (to check the history of commit)
+
+
