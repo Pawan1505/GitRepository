@@ -70,3 +70,12 @@ git checkout - Checkour commit or branch
 Checking out commits and branches
 
 git checkout hash value
+
+File tracking statuses
+
+Untracked 
+Unmodified
+Modified
+Staged
+
+Staging and commiting the Changes
