@@ -79,3 +79,46 @@ Modified
 Staged
 
 Staging and commiting the Changes
+
+git commit -a -m ""
+
+Branches and Merging of Branches
+
+Merging process
+
+1. Create a new feature branch from main branch
+2. Makes changes in the new branch and commit them.
+3. Checkout main branch(receiving branch) 
+4.Merge feature branch to the current receiving branch
+
+git merge <Feature Branch>
+
+Branches merging in action
+
+1.Create a feature branch
+2.Created a text file in feature branch (added and commited it).
+3.Checkout to main branch
+4.Created a text file in main branch (added and commited it).
+5.Merged feature1 into Main branch.
+
+Exploring commits tree using graph option
+
+git log --graph (Can check the graphical representaion)
+
+How to delete the branch
+
+git branch -d branchname
+
+
+GITHUB and Repository Hosting Services Overview
+
+github repository hosting service
+
+
+Creating a remote repository at Github
+
+Pushing from local to remote
+
+Commiting to the GITHUB and pulling to the local repository
+
+Can directly make changes in the github by editing the file commiting the changes
