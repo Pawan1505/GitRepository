@@ -122,3 +122,25 @@ Pushing from local to remote
 Commiting to the GITHUB and pulling to the local repository
 
 Can directly make changes in the github by editing the file commiting the changes
+
+git pull 
+
+Above command is used to pull the request and make it synchornize in 
+both the Git and in GITHUB
+
+
+Exploring and Reading Git Objects
+
+ls .git/objects/61
+
+git cat-file -t SHA1 
+
+git cat-file -p SHA1
+
+Reading the Contents of Headers
+
+ls .git
+
+cat .git/HEAD
+
+Above command is used to ref the specific branches
